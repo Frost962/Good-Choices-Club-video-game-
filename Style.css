@@ -34,6 +34,23 @@ body {
   transform: rotateY(180deg);
 }
 
+#info-box {
+  width: 495px;
+  height: 137px;
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  top: 105%;
+  transform: translate(-50%, -50%);
+  display: none;
+  background-color: aliceblue;
+  opacity: 0.9;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 0%;
+  padding-bottom: 8%;
+}
+
 .card .back,
 .card .front {
   width: 71px;
@@ -59,17 +76,17 @@ body {
 #score {
   background-color: rgba(215, 44, 44, 0.8);
   border-radius: 8px;
-  font-size: 30px;
-  font-family: Arial;
+  font-size: 15px;
   width: 200px;
   padding: 15px;
-  margin-left: 80%;
+  margin-left: 65%;
 }
 
 h1 {
   color: rgba(215, 40, 40, 0.9);
   font-weight: bolder;
-  font-size: 67px;
+  font-family: "Lucida Handwriting", "Arial Narrow", Arial, sans-serif;
+  font-size: 4rem;
   text-align: center;
   text-shadow: 0px 0px 20px #969696;
 }

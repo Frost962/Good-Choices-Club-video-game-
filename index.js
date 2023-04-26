@@ -9,8 +9,8 @@ let score = 0;
 
 cards.forEach((pic) => {
   html += `
-      <div class="${pic.name} card" data-card-name="${pic.name}">
-        <div class="back" name="${pic.img}"></div>
+      <div class="${pic.name} card" data-info="${pic.info}" data-card-name="${pic.name}">
+        <div class="back" name="${pic.img}" ></div>
         <div class="front" style="background: url(img/${pic.img}) no-repeat center center; background-size: 71px 71px;"></div>
       </div>
     `;
@@ -20,17 +20,30 @@ cards.forEach((pic) => {
 
   // Bind the click event of each element to a function
   // Set up an object to hold the information for each match
+  const infoBox = document.getElementById("info-box");
+  const closeBtn = document.getElementById("close-button");
+  const infoBoxParagraph = document.getElementById("info-box-paragraph");
+  closeBtn.addEventListener("click", () => {
+    infoBox.style.display = "none";
+  });
 
   document.querySelectorAll(".card").forEach((card) => {
     card.addEventListener("click", () => {
       card.classList.add("turned");
       memoryGame.pickCards.push(card);
       if (memoryGame.pickCards.length === 2) {
+        document.getElementById("pairs-clicked").innerText++;
         const firstCard = memoryGame.pickCards[0];
         const secondCard = memoryGame.pickCards[1];
         const firstName = firstCard.dataset.cardName;
         const secondName = secondCard.dataset.cardName;
         if (memoryGame.checkIfPair(firstName, secondName)) {
+          setTimeout(() => {
+            infoBox.style.display = "block";
+            infoBoxParagraph.innerHTML = firstCard.dataset.info;
+          }, 1000);
+
+          document.getElementById("pairs-guessed").innerText++;
         } else {
           setTimeout(() => {
             firstCard.classList.remove("turned");
