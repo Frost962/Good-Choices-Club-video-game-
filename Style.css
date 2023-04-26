@@ -1,15 +1,15 @@
 body {
   margin: 0;
 
-  background: url("../img/background.jpg") no-repeat;
+  background: url("./img/backgroundImg5.jpg") no-repeat;
   background-size: cover;
   font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
 #memory-board {
-  background: #dddddd;
-  width: 820px;
-  height: 540px;
+  background-color: #dddddd20;
+  width: 674px;
+  height: 510px;
   padding: 70px;
   margin: 0px auto;
   border-radius: 84px;
@@ -62,8 +62,8 @@ body {
   font-size: 30px;
   font-family: Arial;
   width: 200px;
-  padding: 20px;
-  margin-left: 75%;
+  padding: 15px;
+  margin-left: 80%;
 }
 
 h1 {
