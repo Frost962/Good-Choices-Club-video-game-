@@ -64,7 +64,7 @@ const cards = [
   },
 
   {
-    name: "Sad-Happy-Animal-",
+    name: "Sad-Happy-Animal",
     img: "happyAnimal.jfif",
     info: "<b>BAD CHOICE:</b> When we don't take care of animals, it can have a big impact on the environment. For example, if we throw garbage in the ocean, it can hurt sea animals and their habitats and that would affect the ocean life circle. <br> <b>GOOD CHOICE:</b> Animals come in all shapes and sizes. Some are big, like elephants, and some are small, like ladybugs. Animals have feelings just like we do. They can be happy, sad, scared or excited. If we take care of animals, they can help us in many ways. For example, bees help pollinate plants, which helps us grow our food. <br> <b>FUN FACT</b> Kangaroos can hop at speeds up to 30 mph",
   },
@@ -94,7 +94,7 @@ const cards = [
   },
 
   {
-    name: "Jogging-no-Jogging",
+    name: "Jogging-noJogging",
     img: "noJogging.png",
     info: "<b>BAD CHOICE:</b> If we don't run or at least basic exercise, our bodies might start to feel lazy and tired, like a sleepy bear who just wants to take a nap all day! also we can do it in a fun way like dancing, jumping around or going for a walk with family or friends. <br> <b>GOOD CHOICE:</b> Running is like a superpower that can make your heart strong and your legs powerful! When you run, you're giving your heart a workout, which helps keep it healthy and happy. Running also helps make your legs super strong, so you can jump higher, run faster, and have lots of fun playing with your friends. <br> <b>FUN FACT:</b> The human heart creates enough pressure to squirt blood (30 feet/ 9 meters) when we run!",
   },
@@ -111,7 +111,7 @@ const cards = [
   },
 
   {
-    name: "lazy-Boy-girlStretching",
+    name: "lazy-Boy-girl-Stretching",
     img: "lazyBoy.jpg",
     info: "<b>BAD CHOICE:</b> Not stretching our bodies and sitting for extended periods of time can lead to poor posture, back pain, and a lack of physical activity as well can lead to muscle stiffness and injury for both kids and adults. <br> <b>GOOD CHOICE:</b> Stretching keeps the muscles flexible, strong, and healthy, and we need that flexibility to maintain a range of motion in the joints. Without it, the muscles shorten and become tight. Then, when you zqnt to use the muscles for activity, they are weak and unable to extend all the way. <br> <b>FUN FACT:</b> Regular stretching can help improve your range of motion and overall flexibility, means your jumps will be way higher!",
   },
