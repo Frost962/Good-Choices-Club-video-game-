@@ -43,6 +43,7 @@ function lauchGame() {
           const secondCard = memoryGame.pickCards[1];
           const firstName = firstCard.dataset.cardName;
           const secondName = secondCard.dataset.cardName;
+
           if (memoryGame.checkIfPair(firstName, secondName)) {
             setTimeout(() => {
               infoBox.style.display = "block";

@@ -35,20 +35,17 @@ body {
 }
 
 #info-box {
-  width: 495px;
-  height: 137px;
   position: absolute;
   z-index: 1;
   left: 50%;
   top: 105%;
   transform: translate(-50%, -50%);
   display: none;
-  background-color: aliceblue;
+  background-color: rgb(237, 225, 129);
   opacity: 0.9;
   border-radius: 10px;
   text-align: center;
-  padding-top: 0%;
-  padding-bottom: 13%;
+  padding: 0.5rem;
 }
 
 .card .back,
@@ -138,7 +135,6 @@ h2 {
 }
 
 p {
-  font-weight: bolder;
   font-size: 18px;
   text-align: center;
 }
