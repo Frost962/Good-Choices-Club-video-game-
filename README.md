@@ -22,7 +22,7 @@ Direct link: https://frost962.github.io/Good-Choices-Club-video-game-/
 
 QR code:
 
- <img src="https://frost962.github.io/Good-Choices-Club-video-game-/QR code.github.io" width = "260px" height = "260px" alt="qr code" />  
+ <img src="https://frost962.github.io/Good-Choices-Club-video-game-/QRcode.png" width = "260px" height = "260px" alt="qr code"/>  
 
 # Tools used in this game:
 

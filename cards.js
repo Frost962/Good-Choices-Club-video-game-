@@ -2,7 +2,7 @@ const cards = [
   {
     name: "cola-orange",
     img: "Cola.png",
-    info: "<b>BAD CHOICE:</b> Cola: Cola is high in sugar and can lead to dental problems and fast weight gain. <br><b> GOOD CHOICE: </b> Orange juice: Oranges are filled with a special vitamin called vitamin C, which helps keep our bodies healthy, strong and full of energy. <br><b>FUN FACT:</b> Did you know that it takes about 13 oranges to make just one glass of orange juice?",
+    info: "<b>BAD CHOICE:</b> Cola: Cola is high in sugar and can lead to dental problems and fast weight gain. <br><b> GOOD CHOICE: </b> Orange juice: Oranges are filled with a special vitamin called vitamin C, which helps keep our bodies healthy, strong and full of energy. <br><b>FUN FACT:</b> Orange flowers are also known as orange blossoms. They are used in making perfumes due to their beautiful fragrance. These blossoms are also used for cake decoration and bouquets.",
   },
 
   {
@@ -78,7 +78,7 @@ const cards = [
   {
     name: "cola-orange",
     img: "orangeJuice.png",
-    info: "<b>BAD CHOICE:</b> Cola: Cola is high in sugar and can lead to dental problems and fast weight gain. <br><b>GOOD CHOICE: </b> Orange juice: Oranges are filled with a special vitamin called vitamin C, which helps keep our bodies healthy, strong and full of energy <br><b>FUN FACT:</b> Did you know that it takes about 13 oranges to make just one glass of orange juice?",
+    info: "<b>BAD CHOICE:</b> Cola: Cola is high in sugar and can lead to dental problems and fast weight gain. <br><b>GOOD CHOICE: </b> Orange juice: Oranges are filled with a special vitamin called vitamin C, which helps keep our bodies healthy, strong and full of energy <br><b>FUN FACT:</b> Orange flowers are also known as orange blossoms. They are used in making perfumes due to their beautiful fragrance. These blossoms are also used for cake decoration and bouquets.",
   },
 
   {
